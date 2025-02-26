@@ -1,0 +1,18 @@
+<!-- <IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Chuyển hướng toàn bộ HTTP sang HTTPS
+    RewriteCond %{HTTPS} !=on
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+    RewriteBase /
+    RewriteRule ^index\.html$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /index.html [L]
+</IfModule> -->
+
+<Files "trang-can-chan.html">
+    Order Allow,Deny
+    Deny from all
+</Files>

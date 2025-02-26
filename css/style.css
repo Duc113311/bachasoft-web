@@ -2463,6 +2463,7 @@ Preloader
     width: 50px;
     margin-left: -25px;
     margin-top: -25px;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-image: url(../images/bacha/icon-bacha.png);
