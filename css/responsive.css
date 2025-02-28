@@ -1574,7 +1574,7 @@
 
 @media only screen and (max-width: 599px) {
     .banner-section-ten .banner-carousel .bg-image {
-        background-size: contain
+        background-size: cover
     }
 
     .banner-section-ten {
@@ -2184,7 +2184,11 @@
     }
 
     .ls-widget .widget-content {
-        padding: 0 20px 10px
+        /* padding: 0 20px 10px */
+    }
+
+    .notification-widget{
+        margin-top: 20px;
     }
 
     .ui-item {

@@ -6086,7 +6086,7 @@ Banner Section Ten
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 80vh;
+    min-height: 87vh;
     text-align: center;
     padding: 370px 0 37px;
 }
@@ -18627,7 +18627,7 @@ Chat Widget
 
 .ls-widget .widget-content {
     position: relative;
-    padding: 0px 10px 10px;
+    /* padding: 0px 10px 10px; */
 }
 
 hr.new3 {

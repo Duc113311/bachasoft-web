@@ -1,4 +1,4 @@
-<!-- <IfModule mod_rewrite.c>
+<IfModule mod_rewrite.c>
     RewriteEngine On
 
     # Chuyển hướng toàn bộ HTTP sang HTTPS
@@ -10,9 +10,9 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule . /index.html [L]
-</IfModule> -->
+</IfModule>
 
-<Files "trang-can-chan.html">
-    Order Allow,Deny
-    Deny from all
-</Files>
+# <Files "trang-can-chan.html">
+#     Order Allow,Deny
+#     Deny from all
+# </Files>
